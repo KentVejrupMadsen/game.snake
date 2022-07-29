@@ -3,6 +3,10 @@ class System
     constructor()
     {
         this.frame = new Frame('mainCanvas');
+
+        this.screen = new Screen();
+        
+        this.mouse = new Mouse();
         this.keyboard = new Keyboard();
     }
 

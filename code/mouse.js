@@ -1,4 +1,4 @@
-class ScreenEvents
+class Mouse
 {
     constructor()
     {
