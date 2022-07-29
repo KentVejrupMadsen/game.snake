@@ -1,27 +1,50 @@
-let gp_store = null;
+let gpStore = null;
 
 
 class Store
 {
     constructor()
     {
-        console.log( 'created: store' )
+        console.log( 'created: dataStore' );
+
+        this.packages = Array();
+
     }
 
-    //
+
+    make( key )
+    {
+        let sizeOf = this.packages.length;
+        let newPackage = new Package( sizeOf, key );
+
+        this.packages.push( newPackage );
+    }
+
+    // Accessors
+    get Packages()
+    {
+        return this.packages;
+    }
+
+    set Packages( array )
+    {
+        this.packages = array;
+    }
+
+    // global
     static getStore()
     {
-        if( gp_store == null )
+        if( gpStore == null )
         {
-            gp_store = new Store();
+            gpStore = new Store();
         }
 
-        return gp_store;
+        return gpStore;
     }
 
     static setStore( store )
     {
-        gp_store = store;
+        gpStore = store;
     }
 
 }
