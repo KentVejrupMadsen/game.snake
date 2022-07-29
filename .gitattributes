@@ -9,6 +9,8 @@
 *.html diff=html eol=crlf
 *.css diff=css eol=crlf
 
+*.js diff=text eol=crlf
+
 *.md diff=markdown eol=crlf
 *.sh diff=sh eol=lf
 
