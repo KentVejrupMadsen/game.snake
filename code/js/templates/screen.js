@@ -2,6 +2,6 @@ class Screen
 {
     constructor()
     {
-        console.log('created: Screen')
+        console.log( 'created: Screen' )
     }
 }

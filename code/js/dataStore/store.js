@@ -5,11 +5,17 @@ class Store
 {
     constructor()
     {
-        console.log('created: store')
+        console.log( 'created: store' )
     }
 
+    //
     static getStore()
     {
+        if( gp_store == null )
+        {
+            gp_store = new Store();
+        }
+
         return gp_store;
     }
 

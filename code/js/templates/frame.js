@@ -7,7 +7,7 @@ class Frame
 
         this.screen = new Screen();
 
-        this.mouse = new Mouse();
+        this.mouse    = new Mouse();
         this.keyboard = new Keyboard();
     }
 
@@ -65,7 +65,5 @@ class Frame
     {
         this.Context = this.document.getContext( "2d" );
     }
-
-
 
 }
