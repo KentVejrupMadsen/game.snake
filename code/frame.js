@@ -31,4 +31,6 @@ class Frame
         this.Context = this.document.getContext( "2d" );
     }
 
+
+
 }
