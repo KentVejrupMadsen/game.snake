@@ -4,6 +4,8 @@ class Package
     {
         this.id = identity;
         this.key = packageKey;
+
+        this.storage = Array();
     }
 
     get Identity()
@@ -14,6 +16,16 @@ class Package
     set Identity( value )
     {
         this.id = value;
+    }
+
+    get Storage()
+    {
+        return this.storage;
+    }
+
+    set Storage( value )
+    {
+        this.storage = value;
     }
 
     get Key()
