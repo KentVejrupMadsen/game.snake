@@ -2,13 +2,13 @@ class Frame
 {
     constructor( id )
     {
+        this.Document = document.getElementById( id );
+        this.init();
+
         this.screen = new Screen();
 
         this.mouse = new Mouse();
         this.keyboard = new Keyboard();
-
-        this.Document = document.getElementById( id );
-        this.init();
     }
 
     get Mouse()
