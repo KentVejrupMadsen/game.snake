@@ -2,7 +2,7 @@ class System
 {
     constructor()
     {
-        this.store = new Store();
+        this.store = Store.getStore();
 
         this.frame = new Frame('mainCanvas' );
         this.graphics = new Graphics( this.frame );
@@ -10,7 +10,7 @@ class System
         this.mouse    = new Mouse();
         this.keyboard = new Keyboard();
 
-        this.logic = new GameRules();
+        this.logic = new Game();
 
         this.stop = false;
     }
@@ -100,6 +100,7 @@ var system = null;
 function main()
 {
     console.log( 'Script Started' );
+
     system = new System();
 
     drawSystem();

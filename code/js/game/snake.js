@@ -1,10 +1,13 @@
 ﻿class Snake
+    extends Entity
 {
     constructor()
     {
+        super();
+        console.log('created: player');
+
         this.position = new PositionVector();
         this.movement = new Vector();
-
     }
 
 
