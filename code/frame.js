@@ -2,8 +2,33 @@ class Frame
 {
     constructor( id )
     {
+        this.screen = new Screen();
+
+        this.mouse = new Mouse();
+        this.keyboard = new Keyboard();
+
         this.Document = document.getElementById( id );
         this.init();
+    }
+
+    get Mouse()
+    {
+        return this.mouse;
+    }
+
+    set Mouse( value )
+    {
+        this.mouse = value;
+    }
+
+    get Keyboard()
+    {
+        return this.keyboard;
+    }
+
+    set Keyboard( value )
+    {
+        this.keyboard = value;
     }
 
     get Document()
@@ -24,6 +49,16 @@ class Frame
     set Context( value )
     {
         this.context = value;
+    }
+
+    get Screen()
+    {
+        return this.screen;
+    }
+
+    set Screen( value )
+    {
+        this.screen = value;
     }
 
     init()

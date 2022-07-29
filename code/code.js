@@ -2,22 +2,9 @@ class System
 {
     constructor()
     {
+        this.store = new Store();
         this.frame = new Frame('mainCanvas');
 
-        this.screen = new Screen();
-        
-        this.mouse = new Mouse();
-        this.keyboard = new Keyboard();
-    }
-
-    get Keyboard()
-    {
-        return this.keyboard;
-    }
-
-    set Keyboard(value)
-    {
-        this.keyboard = value;
     }
 
     get Frame()
@@ -25,18 +12,18 @@ class System
         return this.frame;
     }
 
-    set Frame(value)
+    set Frame( value )
     {
         this.frame = value;
     }
 
 }
 
+
 function main()
 {
     console.log( 'Script Started' );
     let system = new System();
 }
-
 
 window.addEventListener("load", main() );
