@@ -1,0 +1,7 @@
+﻿class GameRules
+{
+    constructor()
+    {
+
+    }
+}
