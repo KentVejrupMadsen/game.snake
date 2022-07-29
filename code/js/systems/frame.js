@@ -6,29 +6,6 @@ class Frame
         this.init();
 
         this.screen = new Screen();
-
-        this.mouse    = new Mouse();
-        this.keyboard = new Keyboard();
-    }
-
-    get Mouse()
-    {
-        return this.mouse;
-    }
-
-    set Mouse( value )
-    {
-        this.mouse = value;
-    }
-
-    get Keyboard()
-    {
-        return this.keyboard;
-    }
-
-    set Keyboard( value )
-    {
-        this.keyboard = value;
     }
 
     get Document()

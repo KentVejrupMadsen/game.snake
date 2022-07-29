@@ -4,8 +4,13 @@ class System
     {
         this.store = new Store();
 
-        this.frame = new Frame('mainCanvas');
+        this.frame = new Frame('mainCanvas' );
         this.graphics = new Graphics( this.frame );
+
+        this.mouse    = new Mouse();
+        this.keyboard = new Keyboard();
+
+        this.logic = new GameRules();
 
         this.stop = false;
     }
@@ -53,6 +58,36 @@ class System
     set Frame( value )
     {
         this.frame = value;
+    }
+
+    get Mouse()
+    {
+        return this.mouse;
+    }
+
+    set Mouse( value )
+    {
+        this.mouse = value;
+    }
+
+    get Keyboard()
+    {
+        return this.keyboard;
+    }
+
+    set Keyboard( value )
+    {
+        this.keyboard = value;
+    }
+
+    get Logic()
+    {
+        return this.logic;
+    }
+
+    set Logic( value )
+    {
+        this.logic = value;
     }
 
 }
