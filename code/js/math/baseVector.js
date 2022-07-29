@@ -1,4 +1,4 @@
-﻿class GameRules
+﻿class BaseVector
 {
     constructor()
     {

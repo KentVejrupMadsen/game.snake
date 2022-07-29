@@ -1,4 +1,4 @@
-﻿class GameRules
+﻿class UnitVector
 {
     constructor()
     {

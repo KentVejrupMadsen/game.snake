@@ -1,4 +1,4 @@
-﻿class GameRules
+﻿class PositionVector
 {
     constructor()
     {
