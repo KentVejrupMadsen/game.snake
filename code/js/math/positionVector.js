@@ -5,4 +5,17 @@
     {
         super(x, y);
     }
+
+    assign( position )
+    {
+        if( position instanceof PositionVector )
+        {
+            this.x = position.x;
+            this.y = position.y;
+        }
+        else
+        {
+            throw new Error();
+        }
+    }
 }

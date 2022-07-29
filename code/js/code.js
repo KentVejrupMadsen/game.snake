@@ -3,7 +3,9 @@ class System
     constructor()
     {
         this.store = new Store();
+
         this.frame = new Frame('mainCanvas');
+        this.graphics = new Graphics( this.frame );
 
         this.stop = false;
     }
@@ -21,6 +23,16 @@ class System
     set Pause( to )
     {
         this.stop = to;
+    }
+
+    get Graphics()
+    {
+        return this.graphics;
+    }
+
+    set Graphics( value )
+    {
+        this.graphics = value;
     }
 
     get Store()
