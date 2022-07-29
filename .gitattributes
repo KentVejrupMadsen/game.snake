@@ -1,0 +1,20 @@
+# Default for all
+* text=auto
+
+*.csv diff=text eol=crlf
+*.json diff=text eol=crlf
+*.tsv diff=text eol=crlf
+*.xml diff=text eol=crlf
+
+*.html diff=html eol=crlf
+*.css diff=css eol=crlf
+
+*.md diff=markdown eol=crlf
+*.sh diff=sh eol=lf
+
+# Git attributes
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+/.github export-ignore
+CHANGELOG.md export-ignore
