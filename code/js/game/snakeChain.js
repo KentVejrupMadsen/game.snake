@@ -1,8 +1,9 @@
-﻿class Food
+﻿class SnakeChain
     extends Entity
 {
     constructor()
     {
         super();
+
     }
 }

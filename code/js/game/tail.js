@@ -1,8 +1,9 @@
-﻿class Food
+﻿class Tail
     extends Entity
 {
     constructor()
     {
         super();
+
     }
 }

@@ -1,6 +1,3 @@
-let gpStore = null;
-
-
 class Store
 {
     constructor()
@@ -8,9 +5,9 @@ class Store
         console.log( 'created: dataStore' );
 
         this.packages = Array();
-
     }
 
+    static __stored = null;
 
     make( key )
     {
@@ -34,17 +31,17 @@ class Store
     // global
     static getStore()
     {
-        if( gpStore == null )
+        if( this.__stored == null )
         {
-            gpStore = new Store();
+            this.__stored = new Store();
         }
 
-        return gpStore;
+        return this.__stored;
     }
 
     static setStore( store )
     {
-        gpStore = store;
+        this.__stored = store;
     }
 
 }

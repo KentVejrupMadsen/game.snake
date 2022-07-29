@@ -1,4 +1,4 @@
-﻿class Tails
+﻿class Entity
 {
     constructor()
     {
