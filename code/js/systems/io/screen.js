@@ -4,7 +4,9 @@ class Screen
     constructor()
     {
         super();
-        console.log( 'created: Screen' )
+        this.debugConsole('Screen Constructed');
     }
+
+    // Accessors
 }
 

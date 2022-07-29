@@ -4,6 +4,10 @@ class Mouse
     constructor()
     {
         super();
-        console.log( 'created: Mouse' );
+        this.debugConsole('Mouse Constructed');
     }
+
+    // Accessors
+
+
 }

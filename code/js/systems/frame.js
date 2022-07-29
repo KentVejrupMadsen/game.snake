@@ -1,3 +1,7 @@
+/**
+  * Author: Kent Madsen
+  * Represents the 'canvas area'.
+  */
 class Frame
 {
     constructor( id )
@@ -8,6 +12,7 @@ class Frame
         this.screen = new Screen();
     }
 
+    // Accessors
     get Document()
     {
         return this.document;

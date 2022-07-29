@@ -4,6 +4,9 @@ class Keyboard
     constructor()
     {
         super();
-        console.log( 'created: Keyboard' );
+        this.debugConsole('Keyboard Constructed');
     }
+
+    // Accessors
+
 }

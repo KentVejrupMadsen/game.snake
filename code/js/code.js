@@ -4,8 +4,7 @@ class System
     {
         this.store = Store.getStore();
 
-        this.frame = new Frame('mainCanvas' );
-        this.graphics = new Graphics( this.frame );
+        this.graphics = new Graphics( new Frame('mainCanvas' ) );
 
         this.mouse    = new Mouse();
         this.keyboard = new Keyboard();
@@ -20,6 +19,7 @@ class System
 
     }
 
+    // Accessors
     get Pause()
     {
         return this.stop;
@@ -48,16 +48,6 @@ class System
     set Store( value )
     {
         this.store = value;
-    }
-
-    get Frame()
-    {
-        return this.frame;
-    }
-
-    set Frame( value )
-    {
-        this.frame = value;
     }
 
     get Mouse()

@@ -2,6 +2,11 @@
 {
     constructor()
     {
-        
+
+    }
+
+    debugConsole( output )
+    {
+        console.log( output );
     }
 }

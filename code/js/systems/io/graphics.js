@@ -4,11 +4,13 @@
     constructor( frame )
     {
         super();
+        this.debugConsole('Graphics Constructed');
+
         this.isFrame( frame );
         this.frame = frame;
-
     }
 
+    // Accessors
     get Frame()
     {
         return this.frame;
