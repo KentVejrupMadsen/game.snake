@@ -1,4 +1,4 @@
-﻿class Tails
+﻿class Tail
     extends Entity
 {
     constructor()

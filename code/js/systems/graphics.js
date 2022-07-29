@@ -1,7 +1,9 @@
 ﻿class Graphics
+    extends InputOutput
 {
     constructor( frame )
     {
+        super();
         this.isFrame( frame );
         this.frame = frame;
 
