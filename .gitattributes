@@ -1,15 +1,12 @@
 # Default for all
 * text=auto
 
-*.csv diff=text eol=crlf
-*.json diff=text eol=crlf
-*.tsv diff=text eol=crlf
-*.xml diff=text eol=crlf
+*.json diff=text eol=lf
+*.html diff=html eol=lf
+*.css diff=css eol=lf
 
-*.html diff=html eol=crlf
-*.css diff=css eol=crlf
-
-*.js diff=text eol=crlf
+*.scss diff=scss eol=lf
+*.js diff=js eol=lf
 
 *.md diff=markdown eol=crlf
 *.sh diff=sh eol=lf
