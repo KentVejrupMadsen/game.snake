@@ -1,3 +1,4 @@
+const index = require( 'index.js' );
 
 //
 var system = null;

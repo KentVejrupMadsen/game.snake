@@ -18,5 +18,9 @@
   {
     "url": "https://github.com/KentVejrupMadsen/game.snake/issues"
   },
-  "homepage": "https://github.com/KentVejrupMadsen/game.snake#readme"
+  "homepage": "https://github.com/KentVejrupMadsen/game.snake#readme",
+  "dependencies":
+  {
+
+  }
 }
