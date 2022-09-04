@@ -1,0 +1,30 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts":
+  {
+    "build": "webpack.config.js --config webpack.config.js",
+    "test": "test"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "git+https://github.com/KentVejrupMadsen/game.snake.git"
+  },
+  "author": "Kent vejrup Madsen",
+  "license": "MIT",
+  "bugs":
+  {
+    "url": "https://github.com/KentVejrupMadsen/game.snake/issues"
+  },
+  "homepage": "https://github.com/KentVejrupMadsen/game.snake#readme",
+  "dependencies": {},
+  "devDependencies":
+  {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
