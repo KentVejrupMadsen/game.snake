@@ -37,3 +37,5 @@ class Graphics
         }
     }
 }
+
+module.exports = Graphics;

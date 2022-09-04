@@ -30,6 +30,4 @@ class Mouse
     static cursor = null;
 }
 
-
-
-
+module.exports = Mouse;

@@ -17,3 +17,5 @@ class Keyboard
     // Accessors
 
 }
+
+module.exports = Keyboard;

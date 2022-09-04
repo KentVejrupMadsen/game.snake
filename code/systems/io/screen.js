@@ -17,3 +17,4 @@ class Screen
     // Accessors
 }
 
+module.exports = Screen;
