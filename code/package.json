@@ -1,0 +1,22 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts":
+  {
+    "test": "test"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "git+https://github.com/KentVejrupMadsen/game.snake.git"
+  },
+  "author": "Kent vejrup Madsen",
+  "license": "MIT",
+  "bugs":
+  {
+    "url": "https://github.com/KentVejrupMadsen/game.snake/issues"
+  },
+  "homepage": "https://github.com/KentVejrupMadsen/game.snake#readme"
+}
