@@ -86,5 +86,6 @@ class System
     {
         this.logic = value;
     }
-
 }
+
+module.exports = System;

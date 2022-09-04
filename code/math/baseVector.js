@@ -33,3 +33,5 @@ class BaseVector
         this.y = value;
     }
 }
+
+module.exports = BaseVector;

@@ -45,3 +45,5 @@ class Package
         this.key = value;
     }
 }
+
+module.exports = Package;

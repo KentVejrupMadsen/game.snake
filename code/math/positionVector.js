@@ -26,3 +26,5 @@ class PositionVector
         }
     }
 }
+
+module.exports = PositionVector;

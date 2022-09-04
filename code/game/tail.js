@@ -14,3 +14,5 @@ class Tail
 
     }
 }
+
+module.exports = Tail;

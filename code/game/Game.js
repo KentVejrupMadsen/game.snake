@@ -33,3 +33,5 @@ class Game
         this.foods = value;
     }
 }
+
+module.exports = Game;

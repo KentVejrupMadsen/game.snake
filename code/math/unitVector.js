@@ -13,3 +13,5 @@ class UnitVector
         super(x, y)
     }
 }
+
+module.exports = UnitVector;

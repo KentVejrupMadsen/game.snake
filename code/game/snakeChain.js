@@ -14,3 +14,5 @@ class SnakeChain
 
     }
 }
+
+module.exports = SnakeChain;

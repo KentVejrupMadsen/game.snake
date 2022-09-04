@@ -38,3 +38,5 @@ class Snake
         this.position = value;
     }
 }
+
+module.exports = Snake;

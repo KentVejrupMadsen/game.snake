@@ -13,3 +13,5 @@ class Food
         super();
     }
 }
+
+module.exports = Food;

@@ -17,3 +17,5 @@ class InputOutput
         console.log( output );
     }
 }
+
+module.exports = InputOutput;
