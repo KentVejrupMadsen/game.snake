@@ -1,5 +1,5 @@
 # Default for all
-* text=auto
+* text=auto diff=auto
 
 *.json diff=text eol=lf
 *.html diff=html eol=lf
